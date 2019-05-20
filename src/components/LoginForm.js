@@ -24,7 +24,7 @@ class LoginForm extends Component {
                         placeholder="user@email.com"
                         label="Email: "
                      onChangeText = {this.onEmailChange.bind(this)}   
-                     value={this.props.password}  // check it
+                   // value={this.props.password}  // check it
                     />
                 </CardSection>
 
